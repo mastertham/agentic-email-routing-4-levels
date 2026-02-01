@@ -16,7 +16,7 @@ def handle_email_level1(email: Email) -> ActionLog:
     summ = fake_llm_summarize(email)
     log.steps.append("summarize -> 1-liner")
 
-    x = 1
+    x = 2
     # deterministic routing table
     inbox_map = {
         "Sales": "sales@company.com",
